@@ -69,6 +69,10 @@ background: #FFFFFF;
 	text-align: center;
 	color:#31036B;
 }
+a:hover{
+    color:#CD104D;
+  }
+
 
 .con2{
 position: absolute;
