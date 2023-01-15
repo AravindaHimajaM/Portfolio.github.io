@@ -10,6 +10,7 @@
     padding: 0;
     display:border-box;
 }
+
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -19,6 +20,17 @@ html{
     text-decoration: none;
     color:#31046B ;
 }
+
+/*.nav1 {
+    position: fixed;
+    width:100%;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #FFFF;
+}
+*/
 .box{
 box-sizing: border-box;
 position: absolute;
@@ -163,7 +175,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 48px;
 line-height: 41px;
-
 color: #31046B;
 }
 
@@ -180,6 +191,7 @@ font-size: 24px;
 line-height: 31px;
 color: #31046B;
 }
+
 .re2{
 box-sizing: border-box;
 position: relative;
@@ -392,6 +404,9 @@ top: 1580px;
     left: 715px;
     top: 1150px;
 }
+
+
+
 .C{
 position: absolute;
 width: 10px;
@@ -615,33 +630,43 @@ color: #31046B;
     align-content: center;
     width: 300px;
     height: 300px;
-    left: -760px;
+    left: -880px;
     top: 1970px;
     
 }
+
 
 .pro2{
 
 position: absolute;
 width: 300px;
 height: 360px;
-left: -460px;
+left: -560px;
 top: 1970px;
 
 }
 .pro3{
 position: absolute;
-width: 300px;
-height: 300px;
-left: -140px;
+width: 2500px;
+height: 200px;
+left: -240px;
 top: 1970px;
 }
+
+.pro4{
+    position: absolute;
+    left: 68px;
+    top: 1970px;
+    width: 0px;
+    height: 0px;
+    }
+
 .pi1{
     position: relative;
     font-size: 20px;
     font-family: 'Shanti';
     top:2245px;
-    left:-725px;
+    left:-835px;
     color: #31046B;
     
 }
@@ -650,25 +675,25 @@ top: 1970px;
     font-size: 20px;
     font-family: 'Shanti';
     top:2215px;
-    left:-460px;
+    left:-560px;
     color:#31046B;
 }
 .pi3{
     position: relative;
     font-size: 20px;
     font-family: 'Shanti';
-    top:2185px;
-    left:-84px;
+    top:2190px;
+    left:-190px;
     color:#31046B;
 }
-
-.pro4{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: -0px;
-    top: 1960px;
-    }
+.pi4{
+    position: relative;
+    font-size: 20px;
+    font-family: 'Shanti';
+    top:2160px;
+    left:130px;
+    color:#31046B;
+}
 
 .con5{
 position: relative;
@@ -960,21 +985,3 @@ font-size: 18px;
 line-height: 20px;
 color: #296B00;
 }
-/* responsive*/
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 850px) {
-   
-}
-
-@media (max-width: 600px) {
-    
-}
-
-@media (max-width: 560px) {
-    
-}
-    
-
